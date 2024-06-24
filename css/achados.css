@@ -1,0 +1,58 @@
+main {
+    background-image: url('../img/pexels-gabby-k-7412095.jpg');
+    background-position: bottom;
+    background-size: cover;
+    height: 80vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer {
+    background-color: #4a3d23;
+}
+
+
+.icon-img {
+    width: 250px;
+    border: 10px solid #40351f; border-radius: 10px;
+    
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    background-color: #d8cfa7;
+    padding-top: 50px; padding-bottom: 50px; padding-right: 30px; padding-left: 30px;
+}
+
+.icon {
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: bolder;
+    font-size: 20px;
+    text-align: center;
+    margin-left: 30px;
+    margin-right: 30px;
+
+    transition: .3s;
+}
+
+.icon p{
+    color: black;
+}
+
+.icon:hover {
+    transform: scale(1.10);
+}
+
+.icon a:hover {
+    background-color: transparent;
+}
+
+nav ul li a {
+    color: #40351f;
+}
+
