@@ -1,0 +1,264 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    font-family: 'Kanit', Arial, Helvetica, sans-serif;
+
+}
+
+html {
+    scroll-behavior: smooth;
+    transition: all .3s;
+}
+
+nav {
+    background: #dfdfdf;
+    height: 80px;
+    width: 100%;
+}
+
+label.logo {
+    color: rgb(0, 0, 0);
+    font-size: 50px;
+    line-height: 80px;
+    font-weight: bold;
+    padding-bottom: 30px; padding-left: 50px; padding-top: 50px; padding-right: 50px;
+   
+}
+
+nav ul {
+    float: right;
+    margin-right: 20px;
+}
+
+nav ul li {
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+}
+
+nav ul li a {
+    color: #020080;
+    font-size: 17px;
+    font-weight: 700;
+    padding: 7px 13px;
+    border-radius: 3px;
+    text-transform: uppercase;
+}
+
+a.active,
+a:hover {
+    background: #000000;
+    color: white;
+    transition: .5s;
+    
+}
+
+main {
+    height: 80vh;
+    background-image: url('../img/pexels-suzyhazelwood-1629236.jpg');
+    background-size: cover;
+    padding-top: 70px;
+    
+    text-align: center;
+}
+
+main .h1 {
+    margin-top: 30px;
+}
+
+.main-text {
+    background-color: #15225ebb;
+    color: white;
+    font-size: 40px;
+    line-height: 180px;
+    height: 200px;
+    
+}
+
+
+.main-paragraph {
+    background-color: #000000cf;
+    color: white;
+    font-size: 13px;
+    padding-left: 20px; padding-right: 20px; padding-top: 10px;
+    height: 240px;
+    margin-left: 300px;
+    margin-right: 300px;
+    border-bottom-left-radius: 30px; border-bottom-right-radius: 30px;
+    
+}
+
+.button {
+    margin-top: 10px;
+}
+
+.button a {
+    
+    width: 280px;
+    text-align: center;
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 20px;
+    cursor: pointer;
+    text-decoration: none;
+    padding: 10px;
+    margin-right: 20px;
+    background-color: #ffffff;
+    color: #000000; 
+    border-radius: 5px;
+    border: 3px solid #000000;
+    margin: auto;
+
+    transition: .3s;
+}
+
+.button .a {
+    margin: auto;
+   
+    transition: .3s;
+}
+
+.button a:hover {
+    background-color: #000000;
+    color: #ffffff;
+    letter-spacing: 2px;
+}
+
+.button p {
+    font-size: 50px;
+    font-family: "Bebas Neue", sans-serif;
+    text-align: center;
+    margin-right: 18px;
+}
+
+
+.checkbtn {
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    margin-top: 5px;
+    cursor: pointer;
+    display: none;
+}
+
+#check {
+    display: none;
+}
+
+footer {
+
+    
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #15225e;  
+    height: 150px;
+ 
+}
+
+footer img {
+    width: 220px;
+}
+
+
+
+@media (max-width: 1200px) {
+    label.logo {
+        font-size: 40px;
+        padding-left: 50px;
+    }
+
+    nav ul li a {
+        font-size: 16px;
+    }
+
+    .main-paragraph {
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+}
+
+@media (max-width: 1050px) {
+    .main-text {
+        font-size: 30px;
+    }
+
+    .main-paragraph {
+        font-size: 12px;
+        margin-left: 50px; margin-right: 50px;
+    }
+}
+
+@media (max-width: 858px) {
+    .checkbtn {
+        display: block;
+    }
+
+    ul {
+        position: fixed;
+        width: 100%;
+        height: 40vh;
+        background: #2c3e50;
+        top: 80px;
+        left: -100%;
+        text-align: center;
+        transition: all .5s;
+    }
+
+    nav ul li {
+        display: block;
+        margin: 50px 0;
+        line-height: 30px;
+    }
+
+    nav ul li a {
+        font-size: 20px;
+        transition: .3s;
+    }
+
+    a:hover,
+    a.active {
+        background: none;
+        color: #ffffff;
+    }
+
+    #check:checked~ul {
+        left: 0;
+    }
+
+    .main-text {
+        font-size: 20px;
+    }
+
+    .main-paragraph {
+        font-size: 12px;
+        margin-left: 20px; margin-right: 20px;
+    }
+}
+
+@media (max-width: 480px)  {
+    .main-paragraph {
+        font-size: 9.5px;
+        margin-left: 20px; margin-right: 20px;
+        height: 250px;
+    }
+    
+}
+
+@media (max-width: 480px) {
+
+    .main-text {
+        font-size: 10px;
+    }
+
+    .main-paragraph {
+        font-size: 7.7px;
+        margin-left: 20px; margin-right: 20px;
+        height: 250px;
+    }
+}
