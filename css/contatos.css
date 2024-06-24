@@ -1,0 +1,72 @@
+nav ul li a {
+    color: #054400;
+}
+
+.main {
+    background: rgba(128, 128, 128, 0.756);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    padding-bottom: 30px;
+}
+
+main {
+    background-image: url('../img/pexels-lukas-rodriguez-1845331-3573351.jpg');
+    background-position: bottom;
+}
+
+.main h2 {
+    font-size: 50px;
+}
+
+main form input[type="text"]{
+    margin-bottom: 20px;
+    height: 50px;
+    border-radius: 10px;
+    width: 300px;
+}
+
+main form input[type="text"]::placeholder {
+    color: #000;
+    padding-left: 10px;
+}
+
+
+.send-button {
+
+    margin-top: 30px;
+    margin-left: 30px;
+
+}
+
+.send-button a {
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 20px;
+    cursor: pointer;
+    text-decoration: none;
+    padding: 10px; padding-right: 50px; padding-left: 50px;
+    margin-right: 20px;
+    background-color: #ffffff;
+    color: #000; 
+    border-radius: 5px;
+    border: 3px solid #065900;
+    
+
+    transition: .3s;
+}
+
+.send-button a:hover {
+    background-color: #065900;
+    color: #ffffff;
+}
+
+.fa-youtube {
+    margin-top: 20px;
+}
+
+.fa-brands {
+    font-size: 20px;
+}
+
+footer {
+    background: rgb(0, 49, 0);
+}
